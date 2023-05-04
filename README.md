@@ -1,0 +1,7 @@
+Download Link: https://assignmentchef.com/product/solved-cse-522-assignment-5-part-1-using-the-tree-memento
+<br>
+Posted on Piazza:Resources à Assignments is a file TreeGUI.java which implements a graphical user interface for the Binary Search Tree and DupTree.   This program was demo-ed in Lecture 19.  When it is run, a GUI appears, using which one can perform the familiar operations such as insert, delete, etc.   The program draws the tree or duptree as illustrated below.
+
+Your task in this part of the assignment is to implement the actionPerformed method corresponding to the Undo button.  Implement this operation using the TreeMemento class given in the file and discussed in Lecture 19.   Using the Undo button, it should be possible to undo all operations and restore earlier tree (or duptree) structures.    The Undo button should never throw an exception; instead, whenever it is inapplicable (e.g., trying to perform an undo before any tree is built), a suitable pop-up message should be shown.
+
+<strong><em>Coding Hints.</em>  </strong>The definition of the actionPerformed method is about 10-12 lines of Java code, and it is similar to those of insert and delete (given in the file).   Feel free to add extra class fields as well as extra executable code to the TreeGUI class in order to support the Undo operation.
